@@ -4,7 +4,9 @@ export default function Home() {
       {/* Sticky Navigation */}
       <header className="bg-white fixed top-0 left-0 w-full z-50 shadow">
         <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-          <h1 className="text-xl font-bold">Ootle</h1>
+          <h1 className="text-4xl text-red-600 font-bold mb-6">
+  This should be red if Tailwind is working
+</h1>
           <nav className="hidden md:flex gap-6 text-sm font-medium">
             <a href="#" className="text-gray-700 hover:text-indigo-600 transition">Home</a>
             <a href="#services" className="text-gray-700 hover:text-indigo-600 transition">Services</a>
